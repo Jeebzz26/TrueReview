@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<!--Written by Jeremy Blom
+	9/10/2023
+-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googlepis.com/css?family=Monserrat:400,800" rel="stylesheet">
+		<link href="css/login.css" rel="stylesheet"/>
+		<title>True Review</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="inner_header">
+				<div class="logo_container">
+					<h1>TRUE<span>REVIEW</span></h1>
+				</div>
+				<ul class="navigation">
+					<a href="index.html"><li>Home</li></a>
+					<a href="titleslist.html"><li>Games</li></a>
+					<a href="ratingsscale.html"><li>Our System</li></a>
+					<a href="login.html"><li>Login</li></a>
+				</ul>
+				<div class="search">
+					<input type="text" name="searchbar" id="searchbar" placeholder="Search">
+				</div>
+			</div>
+		</div>
+		
+		<main>
+			<div class="login_holder">
+				<h1 id="login_header">Login</h1>
+				<div id="login_error_msg_holder">
+					<p id="login_error_msg">Invalid username <span id="error_msg_second_line">and/or password</span></p>
+				</div>
+				<form id="login_form">
+					<input type="text" name="username" id="username_field" class="login_form_field" placeholder="Username">
+					<input type="text" name="password" id="password_field" class="login_form_field" placeholder="Password">
+					<input type="submit" value="Login" id="login_form_submit">
+				</form>
+				<a href="register.html">Register Here</a>
+			</div>
+		</main>
+	</body>
+</html>
